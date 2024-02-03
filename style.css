@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.postElement {
+    width: 400px;
+    background-color: blueviolet;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.overlay {
+    background-color: aquamarine;
+    position: fixed;
+    top: 10px;
+    left: 150px;
+    width: 50%;
+    height: 20%; 
+    display: none;
+}
+
+.overlay.activeOverlay {
+    display: block;
+}
+
+.close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: blue;
+    font-size: 30px;
+    cursor: pointer;
+}
